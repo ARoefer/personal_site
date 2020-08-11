@@ -1,0 +1,25 @@
+---
+theme: default
+title: CV - Adrian Röfer
+---
+
+<h2>Education</h2>
+{% for e in site.data.cv.Education  %}
+<div class="blog-post">
+    <h2 class="blog-post-title">{{ e.title }}</h2>
+    <p class="blog-post-meta" style="display: inline;">{{ e.where }} {{ e.time }}</p>
+    <p>{{ e.desc }}</p>
+</div>
+{% endfor %}
+
+<h2>Work Experience</h2>
+<ul>
+{% for e in site.data.cv.Work  %}
+    <li>
+        <h3>{{ e.title }}</h3>
+        <h4>{{ e.time }}</h4>
+        <h4>{{ e.where }}</h4>
+        <p>{{ e.desc }}</p>
+    </li>
+{% endfor %}
+</ul>
