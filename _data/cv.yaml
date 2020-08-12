@@ -1,91 +1,112 @@
-Education:
-  - title: MSc. Computer Science
-    time: 2017-2020
-    where: University of Bremen
-    desc: Focus on robotics and artificial intelligence, specifically robotic manipulation.
-    final: "Thesis: Kineverse: A Framework for Maintaining and Exchanging Articulation Models for Mobile Manipulation Robots."
+top:
+  picture: /assets/images/portrait_1.jpeg
+  picture_size: 180
+  title: Adrian Röfer, M.Sc.
+  description: I am a graduated Master in Computer Science from the University of Bremen, Germany. 
 
-  - title: BSc. Computer Science
-    time: 2013-2017
-    where: University of Bremen
-    desc: Focus on robotics and artificial intelligence, specifically robotic manipulation.
-    final: "Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks."
+    My main area of interest lies with robotic motion generation through planning and closed-loop control. I have worked on various projects in service of this interest.
 
-Work:
-  - as: Robotics Intern
-    time: November 2019-March 2020
-    where: Amazon Development Center Berlin GmbH
-    desc: Internship at Amazon Development Center in Berlin. Researched improvements to industrial robotic manipulation tasks. Developed low-level robot controller for optimal task performance. Implemented a new method of motion generation for the application in collaboration with an academic consultant. To enable a data-driven development process, created multiple tools for recording and processing performance data, and for predicting future system performance from historic data.
+Content:
+  Education:
+    - title: MSc. Computer Science
+      from: 2017
+      until: 2020
+      where: University of Bremen
+      desc: Focus on robotics and artificial intelligence, specifically robotic manipulation.
+      final: "Thesis: Kineverse: A Framework for Maintaining and Exchanging Articulation Models for Mobile Manipulation Robots."
 
-  - as: Research Collaborator
-    time: August-September 2018
-    where: University of Michigan
-    desc: Second author on a research paper to be submitted to IROS 2019. The paper contributes to the field of indirect object search in large scale environments. Symbolic object relations are combined with metric observations to derive hypothetical object locations, guiding the search. The search itself uses a tightly integrated perception-control loop, allowing for dynamic camera control and occlusion avoidance.
+    - title: BSc. Computer Science
+      from: 2013
+      until: 2017
+      where: University of Bremen
+      desc: Focus on robotics and artificial intelligence, specifically robotic manipulation.
+      final: "Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks."
 
-  - as: Research Assistant
-    time: April-July 2018
-    where: University of Bremen
-    desc: Research assistant at the Institute for Artificial Intelligence headed by Prof. Michael Beetz, tasked with evaluating the PyBullet physics engine's simulation capabilities regarding soft bodies and force-torque sensors. Developed an object oriented, easy-to-use wrapper for the engine and built a lightweight simulator on it for fast prototyping of motion controllers.
-    footnotes: 
-      lws: "Lightweight Simulator: https://aroefer.github.io/iai_bullet_sim/"
+  Work:
+    - as: Robotics Intern
+      from: November 2019
+      until: March 2020
+      where: Amazon Development Center Berlin GmbH
+      desc: Internship at Amazon Development Center in Berlin. Researched improvements to industrial robotic manipulation tasks. Developed low-level robot controller for optimal task performance. Implemented a new method of motion generation for the application in collaboration with an academic consultant. To enable a data-driven development process, created multiple tools for recording and processing performance data, and for predicting future system performance from historic data.
 
-  - as: Research Intern
-    time: October 2017-February 2018
-    where: University of Michigan
-    desc: Research internship at the Laboratory for Progress headed by Prof. Chadwicke Jenkins. Helped with the first implementation of the giskardpy motion control library. Implemented a lightweight velocity control interface and giskardpy interface for the Fetch robot. Worked on a project investigating the automatic generation of task-space motion controllers based on background knowledge. The project aimed at integrating predicates for state assessments and motion controllers tightly, allowing for a direct generation of motion controllers from predicates. The resulting system was used in the joint research project mentioned above.
-    footnotes: 
-      giskardpy: "Giskardpy motion control library: https://github.com/SemRoCo/giskardpy"
-      fetchcontrol: "Fetch control interface: https://github.com/ARoefer/fetch_giskard"
-      gebsyas: "Gebsyas agent framework: https://github.com/ARoefer/gebsyas"
+    - as: Research Collaborator
+      from: August 2018
+      until: September 2018
+      where: University of Michigan
+      desc: Second author on a research paper to be submitted to IROS 2019. The paper contributes to the field of indirect object search in large scale environments. Symbolic object relations are combined with metric observations to derive hypothetical object locations, guiding the search. The search itself uses a tightly integrated perception-control loop, allowing for dynamic camera control and occlusion avoidance.
 
-  - as: Visual Artist
-    time: 2017
-    where: Private Client
-    desc: Created digital set extensions and did compositing work for a stop motion film using the 3D creation suite Blender.
+    - as: Research Assistant
+      from: April 2018
+      until: July 2018
+      where: University of Bremen
+      desc: Research assistant at the Institute for Artificial Intelligence headed by Prof. Michael Beetz, tasked with evaluating the PyBullet physics engine's simulation capabilities regarding soft bodies and force-torque sensors. Developed an object oriented, easy-to-use wrapper for the engine and built a lightweight simulator on it for fast prototyping of motion controllers.
+      footnotes: 
+        lws: "Lightweight Simulator: https://aroefer.github.io/iai_bullet_sim/"
 
-  - as: Research Assistant
-    time: April 2017-July 2017
-    where: University of Bremen
-    desc: Research assistant at the Institute for Artificial Intelligence, tasked with creating a development environment for the giskard motion control framework. The environment was implemented as RVIZ plugin and provides basic features supporting fast controller development and testing.
-    footnotes:
-      giskardide: "Giskard IDE: https://github.com/ARoefer/giskard_ide"
+    - as: Research Intern
+      from: October 2017
+      until: February 2018
+      where: University of Michigan
+      desc: Research internship at the Laboratory for Progress headed by Prof. Chadwicke Jenkins. Helped with the first implementation of the giskardpy motion control library. Implemented a lightweight velocity control interface and giskardpy interface for the Fetch robot. Worked on a project investigating the automatic generation of task-space motion controllers based on background knowledge. The project aimed at integrating predicates for state assessments and motion controllers tightly, allowing for a direct generation of motion controllers from predicates. The resulting system was used in the joint research project mentioned above.
+      footnotes: 
+        giskardpy: "Giskardpy motion control library: https://github.com/SemRoCo/giskardpy"
+        fetchcontrol: "Fetch control interface: https://github.com/ARoefer/fetch_giskard"
+        gebsyas: "Gebsyas agent framework: https://github.com/ARoefer/gebsyas"
 
-  - as: Teaching Assistant
-    time: October 2014-September 2016
-    where: University of Bremen
-    desc: Teaching assistant for the courses Computer Science and Media I/II. Gave weekly tutorial sessions on the lecture's current topic and graded students' assignments.
+    - as: Visual Artist
+      from: 2017
+      where: Private Client
+      desc: Created digital set extensions and did compositing work for a stop motion film using the 3D creation suite Blender.
 
-  - as: Contractor
-    time: 2014 
-    where: University of Bremen
-    desc: Created a tutorial on the basics of using the 3D creation suite Blender for modeling and animating of 3D geometry, as well as using Blender for camera tracking and compositing.
-Project Experience:
-  - what: Student Robotics Project - Master's Program
-    time: October 2016-September 2017
-    where: University of Bremen
-    desc: Students' robotics project SUTURO at the Institute for Artificial Intelligence. Goal of the project was to build a robotic café at the institutes's laboratory. Customers would be able to put in orders, which would then be prepared and delivered by a robot. Designed motion controllers for the PR2 robot, giving it needed manipulation capabilities.
-      Developed new programming languages, features and debugging tools for the giskard motion control framework to ease development and testing of motion controllers.}
-    footnotes: 
-      youtube_motions: "Footage of generated motions: https://www.youtube.com/watch?v=GgAUwfZw0AY" 
+    - as: Research Assistant
+      from: April 2017
+      until: July 2017
+      where: University of Bremen
+      desc: Research assistant at the Institute for Artificial Intelligence, tasked with creating a development environment for the giskard motion control framework. The environment was implemented as RVIZ plugin and provides basic features supporting fast controller development and testing.
+      footnotes:
+        giskardide: "Giskard IDE: https://github.com/ARoefer/giskard_ide"
 
-  - what: Class Project
-    time: April 2016-July 2016
-    where: University of Bremen
-    desc: 4-person class project for lecture Entertainment Computing. Goal of the project was to plan and prototype a video game using the Unity game engine. Contributed to the initial concept, implemented game logic in C\# and created all visual assets for the prototype.
+    - as: Teaching Assistant
+      from: October 2014
+      until: September 2016
+      where: University of Bremen
+      desc: Teaching assistant for the courses Computer Science and Media I/II. Gave weekly tutorial sessions on the lecture's current topic and graded students' assignments.
 
-  - what: Student Robotics Project - Bachelor's Program
-    time: October 2015-July 2016
-    where: University of Bremen
-    desc: "Students' robotics project SUTURO at the Institute for Artificial Intelligence. Goal of the project was to solve an object retrieval task involving multiple objects and a tray in the institutes's laboratory. The PR2 robot would be able to autonomously locate and retrieve various items in the environment. Designed manipulation capabilities for the PR2 robot using the MoveIt! library."
+    - as: Contractor
+      from: 2014 
+      where: University of Bremen
+      desc: Created a tutorial on the basics of using the 3D creation suite Blender for modeling and animating of 3D geometry, as well as using Blender for camera tracking and compositing.
+  Projects:
+    - what: Student Robotics Project - Master's Program
+      from: October 2016
+      until: September 2017
+      where: University of Bremen
+      desc: Students' robotics project SUTURO at the Institute for Artificial Intelligence. Goal of the project was to build a robotic café at the institutes's laboratory. Customers would be able to put in orders, which would then be prepared and delivered by a robot. Designed motion controllers for the PR2 robot, giving it needed manipulation capabilities.
+        Developed new programming languages, features and debugging tools for the giskard motion control framework to ease development and testing of motion controllers.
+      footnotes: 
+        youtube_motions: "Footage of generated motions: https://www.youtube.com/watch?v=GgAUwfZw0AY" 
 
-  - what: Student Software Project
-    time: October 2014-March 2015
-    where: University of Bremen
-    desc: 6-person software project part of the class Software Project II. Goal of the project was to create a software tool for a local elementary school, helping the staff with creation and management of schedules. Implemented database interface and GUI in Java and JavaFX for the tool.
+    - what: Class Project
+      from: April 2016
+      until: July 2016
+      where: University of Bremen
+      desc: 4-person class project for lecture Entertainment Computing. Goal of the project was to plan and prototype a video game using the Unity game engine. Contributed to the initial concept, implemented game logic in C# and created all visual assets for the prototype.
 
-Publications:
-  - title: Semantic Linking Maps for Active Visual Object Search
-    authors: Zhen Zeng, Adrian Röfer, and Odest Chadwicke Jenkins
-    publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
-    notes:
-      - "IEEE ICRA Best Paper Award in Cognitive Robotics"
+    - what: Student Robotics Project - Bachelor's Program
+      from: October 2015
+      until: July 2016
+      where: University of Bremen
+      desc: "Students' robotics project SUTURO at the Institute for Artificial Intelligence. Goal of the project was to solve an object retrieval task involving multiple objects and a tray in the institutes's laboratory. The PR2 robot would be able to autonomously locate and retrieve various items in the environment. Designed manipulation capabilities for the PR2 robot using the MoveIt! library."
+
+    - what: Student Software Project
+      from: October 2014
+      until: March 2015
+      where: University of Bremen
+      desc: 6-person software project part of the class Software Project II. Goal of the project was to create a software tool for a local elementary school, helping the staff with creation and management of schedules. Implemented database interface and GUI in Java and JavaFX for the tool.
+
+  Publications:
+    - title: Semantic Linking Maps for Active Visual Object Search
+      authors: Zhen Zeng, Adrian Röfer, and Odest Chadwicke Jenkins
+      publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
+      notes:
+        - "IEEE ICRA Best Paper Award in Cognitive Robotics"

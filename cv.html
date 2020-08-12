@@ -1,25 +1,68 @@
 ---
-theme: default
-title: CV - Adrian Röfer
+layout: default
+title: "CV - Adrian Röfer"
 ---
-
-<h2>Education</h2>
-{% for e in site.data.cv.Education  %}
-<div class="blog-post">
-    <h2 class="blog-post-title">{{ e.title }}</h2>
-    <p class="blog-post-meta" style="display: inline;">{{ e.where }} {{ e.time }}</p>
-    <p>{{ e.desc }}</p>
+<div class="media py-5">
+    <img src="{{ site.data.cv.top.picture }}" class="align-self-center mr-3 rounded-circle" alt="Profile Picture" style="width: {{ site.data.cv.top.picture_size }}px;">
+    <div class="media-body">
+        <h5 class="mt-0">{{ site.data.cv.top.title }}</h5>
+        <p class="mt-0 text-justify">{{ site.data.cv.top.description }}</p>
+    </div>
 </div>
-{% endfor %}
 
-<h2>Work Experience</h2>
-<ul>
-{% for e in site.data.cv.Work  %}
-    <li>
-        <h3>{{ e.title }}</h3>
-        <h4>{{ e.time }}</h4>
-        <h4>{{ e.where }}</h4>
-        <p>{{ e.desc }}</p>
-    </li>
+<h2>Curriculum Vitae</h2>
+<p>Below you can browse through my CV.</p>
+{% for e in site.data.cv.Content %}
+    <a href="#{{ e[0] }}" class="badge badge-secondary">{{ e[0] }}</a>
 {% endfor %}
-</ul>
+<hr>
+<h3 id="Education">Education</h3>
+<div class="container">
+{% for e in site.data.cv.Content.Education  %}
+    {% assign title = e.title %}
+    {% assign where = e.where %}
+    {% assign from = e.from %}
+    {% assign until = e.until %}
+    {% assign desc = e.desc %}
+    {% include cv_entry.html %}
+{% endfor %}
+</div>
+<hr>
+
+<h3 id="Work">Work Experience</h3>
+<div class="container">
+{% for e in site.data.cv.Content.Work  %}
+    {% assign title = e.as %}
+    {% assign where = e.where %}
+    {% assign from = e.from %}
+    {% assign until = e.until %}
+    {% assign desc = e.desc %}
+    {% include cv_entry.html %}
+{% endfor %}
+</div>
+<hr>
+
+<h3 id="Projects">Project Experience</h3>
+<div class="container">
+{% for e in site.data.cv.Content.Projects %}
+    {% assign title = e.as %}
+    {% assign where = e.where %}
+    {% assign from = e.from %}
+    {% assign until = e.until %}
+    {% assign desc = e.desc %}
+    {% include cv_entry.html %}
+{% endfor %}
+</div>
+<hr>
+
+<h3 id="Publications">Publications</h3>
+<div class="container">
+{% for e in site.data.cv.Content.Publications %}
+    {% assign title = e.title %}
+    {% assign authors = e.authors %}
+    {% assign publication = e.publication %}
+    {% assign notes = e.notes %}
+    {% include cv_publication.html %}
+{% endfor %}
+</div>
+<hr>
