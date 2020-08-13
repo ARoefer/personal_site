@@ -5,7 +5,11 @@ top:
   description: I am a graduated Master in Computer Science from the University of Bremen, Germany. 
 
     My main area of interest lies with robotic motion generation through planning and closed-loop control. I have worked on various projects in service of this interest.
-
+  contact:
+    email: aroefer [at] @ [at] uni-bremen.de
+    linkedin: adrian-röfer-5ab31216a
+    website: aroefer.de
+    github: ARoefer
 Content:
   Education:
     - title: MSc. Computer Science

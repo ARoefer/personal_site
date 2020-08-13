@@ -3,7 +3,41 @@ layout: default
 title: "CV - Adrian Röfer"
 ---
 <div class="media py-5">
-    <img src="{{ site.data.cv.top.picture }}" class="align-self-center mr-3 rounded-circle" alt="Profile Picture" style="width: {{ site.data.cv.top.picture_size }}px;">
+    <div class="align-self-center mr-3">
+        <div class="container">
+            <div class="row">
+            <img src="{{ site.data.cv.top.picture }}" class="col-sm rounded-circle" alt="Profile Picture" style="width: {{ site.data.cv.top.picture_size }}px;">
+            </div>
+            {% assign contact = site.data.cv.top.contact %}
+            <div class="row py-3">
+                <ul class="list-unstyled col-sm">
+                    {% if contact.email %}
+                    <li><i class="fas fa-envelope"></i>
+                      <span>{{ contact.email }}</span>
+                    </li>
+                    {% endif %}
+
+                    {% if contact.github %}
+                    <li><i class="fab fa-github"></i>
+                      <a href="http://github.com/{{ contact.github }}" target="_blank">{{ contact.github }}</a>
+                    </li>
+                    {% endif %}
+
+                    {% if contact.linkedin %}
+                    <li><i class="fab fa-linkedin"></i>
+                      <a href="https://linkedin.com/in/{{ contact.linkedin }}" target="_blank">{{ contact.linkedin }}</a>
+                    </li>
+                    {% endif %}
+
+                    {% if contact.website %}
+                    <li><i class="fas fa-globe-americas"></i>
+                      <a href="http://{{ contact.website }}" target="_blank">{{ contact.website }}</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="media-body">
         <h5 class="mt-0">{{ site.data.cv.top.title }}</h5>
         <p class="mt-0 text-justify">{{ site.data.cv.top.description }}</p>
