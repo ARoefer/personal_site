@@ -53,11 +53,11 @@ title: "CV - Adrian Röfer"
 <h3 id="Education">Education</h3>
 <div class="container">
 {% for e in site.data.cv.Content.Education  %}
+    {% capture desc %}{{ e.desc }} <br> {{ e.final }}{% endcapture %}
     {% assign title = e.title %}
     {% assign where = e.where %}
     {% assign from = e.from %}
     {% assign until = e.until %}
-    {% assign desc = e.desc %}
     {% include cv_entry.html %}
 {% endfor %}
 </div>

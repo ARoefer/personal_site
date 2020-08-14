@@ -1,0 +1,34 @@
+---
+layout: default
+title: pdf_tool
+teaserimg: /assets/images/pdf_tool_teaser.png
+brief: The pdf_tool is a tiny Python program meant to manipulate pdf files from the terminal.
+github: ARoefer/pdf_tool
+---
+<!-- <div class="row"> -->
+<div class="col-sm rounded" style="height: 10rem; background-image: url({{ page.teaserimg }}); background-repeat: no-repeat; background-size: cover; background-position: center;"></div>
+<!-- </div> -->
+<h2 class="my-3">{{ page.title }}</h2>
+<h4 class="text-muted">A small terminal tool for manipulating pdf files.</h4>
+
+<p>The history of this small Python script is quite straight-forward. I do a lot of my work on Ubuntu and need to slice and re-arrange scans from time to time. While there are some larger editors for processing pdf files on Ubuntu, all of them seemed too bloated for my simple use case. I came across the <a href="https://pypi.org/project/pdfrw/" target="_blank">pdfrw</a> package for Python which seemed easy enough to use. I decided to write a terminal application that allows me to quickly process some pdfs.</p>
+
+<h4>What can it actually do?</h4>
+
+<p>Currently the tool offers the following functions:</p>
+
+<ul>
+    <li>Appending 2+ files</li>
+    <li>Merging 2+ files, by appending all their first pages, then the second ones and so on. Useful if you need two scans of a two-sided document...</li>
+    <li>Inserting one document into another</li>
+    <li>Slicing a file, keeping only ranges, or particular pages from it</li>
+    <li>Reversing a file</li>
+</ul>
+
+<p>
+In order to avoid long sequences of transformations, like slicing the relevant pages out of a file before appending it, the tool supports slicing arguments for the files passed to it. This slicing operator is inspired by Python's slicing syntax, though adjusted to work well with page numbers.
+</p>
+
+<p>
+If you are interested in trying out the tool for yourself, check it out over at GitHub.</p> 
+<a href="https://github.com/{{ page.github }}" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> {{ page.github }}</a>
