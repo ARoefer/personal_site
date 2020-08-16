@@ -1,7 +1,7 @@
 <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
         {% for e in site.data.navigation %}
-            <a class="p-2 {% if page.url == e.link %} text-muted {% endif %}" href="{{ e.link }}">{{ e.title }}</a>
+            <a class="p-2 {% if page.url == e.link %} text-muted {% endif %}" href="{{ e.link | prepend:site.baseurl }}">{{ e.title }}</a>
         {% endfor %}
     </nav>
 </div>
