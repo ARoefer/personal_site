@@ -2,12 +2,14 @@
 layout: default
 title: "CV - Adrian Röfer"
 ---
-<div class="media py-5">
-    <div class="align-self-center mr-3">
+<!-- <div class="col-md-8"> -->
+<div class="container">
+<div class="row">
+    <div class="align-self-center col-md-4">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-            <img src="{{ site.data.cv.top.picture }}" class="rounded-circle" alt="Profile Picture" style="width: {{ site.data.cv.top.picture_size }}px; height: {{ site.data.cv.top.picture_size }}px;">
+                <img src="{{ site.data.cv.top.picture }}" class="rounded-circle" alt="Profile Picture" style="width: 100%; height: 100%;">
                 </div>
             </div>
             {% assign contact = site.data.cv.top.contact %}
@@ -40,7 +42,7 @@ title: "CV - Adrian Röfer"
             </div>
         </div>
     </div>
-    <div class="media-body">
+    <div class="col-md-8">
         <h5 class="mt-0">{{ site.data.cv.top.title }}</h5>
         <p class="mt-0 text-justify">
         I am a graduated Master in Computer Science from the University of Bremen, Germany. My main area of interest lies with robotic motion generation through planning and closed-loop control. I have worked on multiple projects in service of this interest, starting with student projects during undergraduate and graduate degree, and continuing with two theses in this field.
@@ -54,6 +56,7 @@ title: "CV - Adrian Röfer"
         <p class="mt-0 text-justify">I was able to apply my experience in robotics to a real-world scenario during an internship at the Amazon Development Center in Berlin. Different from my academic work, I focused on achieving roboustness in the given problem space, as opposed to exploring a particular method across multiple spaces.
         </p>
     </div>
+</div>
 </div>
 
 <h2>Curriculum Vitae</h2>
@@ -112,3 +115,4 @@ title: "CV - Adrian Röfer"
 {% endfor %}
 </div>
 <hr>
+<!-- </div> -->
