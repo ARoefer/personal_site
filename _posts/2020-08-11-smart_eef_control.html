@@ -3,4 +3,26 @@ layout: default
 title: Smart EEF Control
 teaserimg: assets/images/smart_eef_control/smart_eef_control_teaser.png
 brief: The Smart EEF Control is a small ROS package which enables its user to control their robot's end effector using their smartphone.
+github: ARoefer/smart_eef_control
 ---
+
+<div class="col-sm rounded" style="height: 10rem; background-image: url(../../../{{ page.teaserimg }}); background-repeat: no-repeat; background-size: cover; background-position: center;"></div>
+
+<h2 class="my-3">{{ page.title }}</h2>
+<h4 class="text-muted">Controlling robot end effectors from your smartphone.</h4>
+
+<p>Re-positioning your robot's end effector after an experiment can be quite tedious. In the case of more industrial-style robots like the <a href="https://www.universal-robots.com/">URs</a> you might have a teach-pendant that lets you control the end effector directly. With research oriented robots, like the <a href="http://wiki.ros.org/Robots/PR2" target="_blank">PR2</a>, or the <a href="https://fetchrobotics.com/robotics-platforms/" target="_blank">Fetch</a> you will usually not have such a pendant. While both those robots offer control via a gamepad, I thought it might also be interesting to control these robots from your phone.</p>
+
+<p>The <em>Smart EEF Control</em> ROS package provides such remote control functionality using <a href="https://github.com/SemRoCo/giskardpy" target="_blank">giskardpy</a>, and the <a href="http://robotwebtools.org/" target="_blank">Robot Web Tools</a>. The package starts a velocity controller and provides a web interface that can be displayed on a smartphone. The web interface uses an on-screen joystick to control the end effector's linear motion and uses the phone's orientation to control rotation.
+</p>
+
+<p>While this is certainly not the best way yet to control a robot, it is interesting to see how easily already present technology can be utilized to create a new mode of robotic interaction. The video below shows the controller in action, though only on a simulated robot.</p>
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I2fdtpQvTyM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p class="py-4">
+If you are interested in trying out the package for yourself, check it out over at GitHub.
+<a href="https://github.com/{{ page.github }}" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> {{ page.github }}</a>
+</p>
