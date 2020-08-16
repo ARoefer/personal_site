@@ -1,10 +1,7 @@
 top:
   picture: assets/images/portrait_1.jpeg
-  picture_size: 180
+  picture_size: 250
   title: Adrian Röfer, M.Sc.
-  description: I am a graduated Master in Computer Science from the University of Bremen, Germany. 
-
-    My main area of interest lies with robotic motion generation through planning and closed-loop control. I have worked on various projects in service of this interest.
   contact:
     email: aroefer [at] @ [at] uni-bremen.de
     linkedin: adrian-röfer-5ab31216a
