@@ -24,6 +24,12 @@ Content:
       final: "Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks."
 
   Work:
+    - as: Contractor
+      from: August 2020
+      where: University of Bremen
+      desc: Contractor tasked with integrating the Kineverse articulation model framework with the Giskard motion planning library being developmed at the Institute for Artificial Intelligence (IAI) at the University of Bremen.
+
+
     - as: Robotics Intern
       from: November 2019
       until: March 2020
@@ -111,3 +117,9 @@ Content:
       publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
       notes:
         - "IEEE ICRA Best Paper Award in Cognitive Robotics"
+
+    - title: "Kineverse: A Symbolic Articulation Model Framework for Model-Generic Software for Mobile Manipulation"
+      authors: Adrian Röfer, Georg Bartels, and Michael Beetz
+      publication: IEEE International Conference on Robotics and Automation (ICRA), 2021
+      notes:
+        - "Paper submitted, pending review."
