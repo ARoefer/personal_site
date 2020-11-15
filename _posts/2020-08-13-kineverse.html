@@ -3,7 +3,21 @@ layout: default
 title: Kineverse
 teaserimg: /assets/images/kineverse/kineverse_teaser.png
 brief: Kineverse is a framework for developing and exchanging articulation models in a ROS ecosystem. It is mostly aimed to be used in the context of mobile manipulation robots.
+thesis_pdf: /assets/files/kineverse_thesis.pdf
 ---
-<h2>This is the project page for the Kineverse project</h2>
+<div class="col-sm rounded" style="height: 10rem; background-image: url(../../../{{ page.teaserimg }}); background-repeat: no-repeat; background-size: cover; background-position: center;"></div>
 
-<p>Kineverse is a framework for developing and exchanging articulation models in a ROS ecosystem. It is mostly aimed to be used in the context of mobile manipulation robots.</p>
+<h2 class="my-3">{{ page.title }}</h2>
+<h4 class="text-muted">An Articulation Model Framework for Mobile Manipulation</h4>
+
+<p>
+    <em>Kineverse</em> is a software package for creating and exchanging articulation models for robotic systems. Different from other frameworks for describing articulated objects such as URDF, SDF, or COLLADA it does not use abstract descriptions to describe models. Instead, it models articulated objects directly as their underlying mathematical expressions. The motivation for this different approach is twofold: 
+    <ol>
+        <li>Frameworks like URDF and SDF require background knowledge when converting their model descriptions to computational models. Personally, I admit to being too lazy or pressed for time to implement the entire standard for every project that I do, and I assume that I am not the only person who has felt this way. 
+        </li>
+        <li>During my work with the <a href="http://giskard.de">GiskardPy</a> motion planning library, I realized that an exact knowledge of the types of joints in a robot or object are actually not necessary for many motion planning tasks. I wondered if this observation would generalize. If it did, I hoped that the great algorithms that are already out there for estimating and manipulating articulated objects would scale to new mechanisms.
+        </li>
+    </ol>
+
+    Eventually, I hope to describe all the concepts of <em>Kineverse</em> here in detail. However, for the time being, I would refer the interested reader to my <a href="{{ site.baseurl }}/download/kineverse_thesis.pdf">thesis about Kineverse</a>.
+</p>
