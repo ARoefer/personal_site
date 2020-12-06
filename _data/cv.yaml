@@ -24,10 +24,15 @@ Content:
       final: "Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks."
 
   Work:
+    - as: Software Developer
+      from: December 2020-
+      where: Aero Test Europe Limited
+      desc: Software developer at Aero Test Europe. Working in a joint project with FFT Produktionssysteme GmbH & Co. KG. investigating opportunities for utilizing IoT devices in testing of aviation systems. Development of infrastructure enabling the communication of larger systems with application specific embedded devices.
+
     - as: Contractor
       from: August 2020
       where: University of Bremen
-      desc: Contractor tasked with integrating the Kineverse articulation model framework with the Giskard motion planning library being developmed at the Institute for Artificial Intelligence (IAI) at the University of Bremen.
+      desc: Contractor tasked with integrating the Kineverse articulation model framework with the Giskard motion planning library being developed at the Institute for Artificial Intelligence (IAI) at the University of Bremen.
 
 
     - as: Robotics Intern
