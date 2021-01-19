@@ -25,7 +25,8 @@ Content:
 
   Work:
     - as: Software Developer
-      from: December 2020-
+      from: December 2020
+      until: January 2021
       where: Aero Test Europe GmbH
       desc: Software developer at Aero Test Europe. Working in a joint project with FFT Produktionssysteme GmbH & Co. KG. investigating opportunities for utilizing IoT devices in testing of aviation systems. Development of infrastructure enabling the communication of larger systems with application specific embedded devices.
 
