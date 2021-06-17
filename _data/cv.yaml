@@ -3,9 +3,13 @@ top:
   picture_size: 250
   title: Adrian Röfer, M.Sc.
   contact:
-    email: aroefer [at] @ [at] uni-bremen.de
+    email: aroefer [at] @ [at] cs.uni-freiburg.de
     linkedin: adrian-röfer-5ab31216a
-    website: aroefer.de
+    websites: 
+      - name: aroefer.de
+        url: http://aroefer.de
+      - name: Robot Learning Lab
+        url: https://rl.uni-freiburg.de/people/roefer
     github: ARoefer
 Content:
   Education:
@@ -24,6 +28,12 @@ Content:
       final: "Thesis: A Comparison of Two Control Schemes for Obstacle Avoidance in Robotic Shelf Replenishment Tasks."
 
   Work:
+    - as: PhD Student
+      from: June 2021
+      where: University of Freiburg
+      desc: PhD Student at the Robot Learning lab headed by Prof. Abhinav Valada. Researching mobile manipulation, visuo-motor control, and learning from demonstrations.
+
+
     - as: Software Developer
       from: December 2020
       until: January 2021
@@ -128,4 +138,4 @@ Content:
       authors: Adrian Röfer, Georg Bartels, and Michael Beetz
       publication: IEEE International Conference on Robotics and Automation (ICRA), 2021
       notes:
-        - "Paper submitted, pending review. (ArXiv: 2012.05362)"
+        - "Preprint. (ArXiv: 2012.05362)"

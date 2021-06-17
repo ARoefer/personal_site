@@ -33,11 +33,11 @@ title: "CV - Adrian Röfer"
                     </li>
                     {% endif %}
 
-                    {% if contact.website %}
+                    {% for site in contact.websites %}
                     <li><i class="fas fa-globe-americas"></i>
-                      <a href="http://{{ contact.website }}" target="_blank">{{ contact.website }}</a>
+                      <a href="{{ site.url }}" target="_blank">{{ site.name }}</a>
                     </li>
-                    {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -45,15 +45,16 @@ title: "CV - Adrian Röfer"
     <div class="col-md-8">
         <h5 class="mt-0">{{ site.data.cv.top.title }}</h5>
         <p class="mt-0 text-justify">
-        I am a graduated Master in Computer Science from the University of Bremen, Germany. My main area of interest lies with robotic motion generation through planning and closed-loop control. I have worked on multiple projects in service of this interest, starting with student projects during undergraduate and graduate degree, and continuing with two theses in this field.
+        I am a PhD student working at the <a href="https://rl.uni-freiburg.de/">Robot Learning Lab</a> at the University of Freiburg and also a member of the <a href="https://ellis.eu">ELLIS Society's</a> network of researchers. My interests lie with all kinds of robotic manipulation, but my main focus has been on developing methods to enable <em>Manipulation with a Purpose</em> - manipulation that is motivated and tightly coupled with the constraints and goal of the task a robot is supposed to solve. I have worked on multiple projects in service of this interest, starting with student projects during my undergraduate and graduate degree, and continuing with two theses in this field. As my previous efforts have been model-based I setting out to utilize model-free learning methods in service of this interest as a part of my PhD research.<br>
         </p>
 
         <p class="mt-0 text-justify">
         During my graduate degree, I collaborated frequently with the Laboratory for Progress at the University of Michigan. As a part of these collaborations, I explored generating motion controllers from semantic predicates which were grounded in symbolic mathematical descriptions. This exploration later inspired the topic of my graduate thesis.<br>
-        Further, I collaborated with Dr. Zhen Zeng on the paper "Semantic Linking Maps for Active Visual Object Search". The paper was published at ICRA 2020 and received the IEEE ICRA Best Paper Award in Cognitive Robotics.
+        Further, I collaborated with Dr. Zhen Zeng on the paper "Semantic Linking Maps for Active Visual Object Search". The paper was published at ICRA 2020 and received the IEEE ICRA Best Paper Award in Cognitive Robotics. <br>
         </p>
 
-        <p class="mt-0 text-justify">I was able to apply my experience in robotics to a real-world scenario during an internship at the Amazon Development Center in Berlin. Different from my academic work, I focused on achieving roboustness in the given problem space, as opposed to exploring a particular method across multiple spaces.
+        <p class="mt-0 text-justify">On practical note, I was able to apply my experience in robotics to a real-world scenario during an internship at the Amazon Development Center in Berlin. Different from my academic work, I focused on achieving roboustness in the given problem space, as opposed to exploring a particular method across multiple spaces.<br>
+        Further, I got to test and improve my software development skillset while working as an SD in projects with the FFT Produktionssysteme GmbH & Co. KG. While this work was not robotics related, it introduced me to the world of embedded development and enabled me to focus on organizing and creating production-level software.
         </p>
     </div>
 </div>
