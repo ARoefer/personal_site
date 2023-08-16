@@ -11,7 +11,11 @@ layout: default
     <p class="card-text">{{ post.brief }}</p>
   </div>
   <div class="card-footer">
-    <a href="{{ post.url | prepend:site.baseurl }}" class="btn btn-primary">{{ site.data.snippets.more }}</a>
+    {% if post.url_override %}
+      <a href="{{ post.url_override }}" class="btn btn-primary">{{ site.data.snippets.more }}</a>
+    {% else %}
+      <a href="{{ post.url | prepend:site.baseurl }}" class="btn btn-primary">{{ site.data.snippets.more }}</a>
+    {% endif %}
   </div>
 </div>
 {% endfor %}
