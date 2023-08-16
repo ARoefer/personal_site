@@ -16,12 +16,12 @@ Content:
   - title: "Kineverse: A Symbolic Articulation Model Framework for Model-Generic Software for Mobile Manipulation"
     authors: Adrian Röfer, Georg Bartels, Wolfram Burgard Abhinav Valada, and Michael Beetz
     publication: IEEE Robotics and Automation Letters, 2022
-    link: https://arxiv.org/pdf/2012.05362
+    link: http://kineverse.cs.uni-freiburg.de/
 
   - title: Robot Skill Adaptation via Soft Actor-Critic Gaussian Mixture Models
     authors: Iman Nematollahi, Erick Rosete-Beas, Adrian Röfer, Tim Welschehold, Abhinav Valada, Wolfram Burgard
     publication: IEEE International Conference on Robotics and Automation (ICRA), Philadelphia, USA, 2022
-    link: https://arxiv.org/abs/2111.13129
+    link: http://sac-gmm.cs.uni-freiburg.de/
 
   - title: Doing Right by Not Doing Wrong in Human-Robot Collaboration
     authors: Laura Londoño, Adrian Röfer, Tim Welschehold, Abhinav Valada
@@ -36,6 +36,7 @@ Content:
   - title: Semantic Linking Maps for Active Visual Object Search
     authors: Zhen Zeng, Adrian Röfer, and Odest Chadwicke Jenkins
     publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
+    link: https://arxiv.org/abs/2006.10807
     notes:
       - "IEEE ICRA Best Paper Award in Cognitive Robotics"
 
