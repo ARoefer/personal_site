@@ -12,7 +12,45 @@ top:
         url: https://rl.uni-freiburg.de/people/roefer
     github: ARoefer
 Content:
+  Publications:
+  - title: "Kineverse: A Symbolic Articulation Model Framework for Model-Generic Software for Mobile Manipulation"
+    authors: Adrian Röfer, Georg Bartels, Wolfram Burgard Abhinav Valada, and Michael Beetz
+    publication: IEEE Robotics and Automation Letters, 2022
+    link: https://arxiv.org/pdf/2012.05362
+    notes: []
+
+  - title: Robot Skill Adaptation via Soft Actor-Critic Gaussian Mixture Models
+    authors: Iman Nematollahi, Erick Rosete-Beas, Adrian Röfer, Tim Welschehold, Abhinav Valada, Wolfram Burgard
+    publication: IEEE International Conference on Robotics and Automation (ICRA), Philadelphia, USA, 2022
+    link: https://arxiv.org/abs/2111.13129
+    notes: []
+
+  - title: Doing Right by Not Doing Wrong in Human-Robot Collaboration
+    authors: Laura Londoño, Adrian Röfer, Tim Welschehold, Abhinav Valada
+    publication: ACM/IEEE International Conference on Human-Robot Interaction Workshop on Fairness and Transparency in Human-Robot Interaction, 2022
+    link: https://arxiv.org/pdf/2202.02654
+    notes: []
+
+  - title: "RobotIO: A Python Library for Robot Manipulation Experiments"
+    authors: Lukas Hermann, Max Argus, Adrian Röfer, Thomas Brox, Abhinav Valada, Wolfram Burgard
+    publication: arXiv preprint arXiv:2207.13591, 2022
+    link: https://arxiv.org/pdf/2207.13591.pdf
+    notes: []
+
+  - title: Semantic Linking Maps for Active Visual Object Search
+    authors: Zhen Zeng, Adrian Röfer, and Odest Chadwicke Jenkins
+    publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
+    notes:
+      - "IEEE ICRA Best Paper Award in Cognitive Robotics"
+
   Education:
+    - title: PhD
+      from: 2021
+      until: present
+      where: University of Freiburg
+      desc: Learning long-horizon mobile robotic manipulation from demonstration, semantic perception, and language supervision.
+      final: "Disseration: TBD"
+
     - title: MSc. Computer Science
       from: 2017
       until: 2020
@@ -128,15 +166,3 @@ Content:
       where: University of Bremen
       desc: 6-person software project part of the class Software Project II. Goal of the project was to create a software tool for a local elementary school, helping the staff with creation and management of schedules. Implemented database interface and GUI in Java and JavaFX for the tool.
 
-  Publications:
-    - title: Semantic Linking Maps for Active Visual Object Search
-      authors: Zhen Zeng, Adrian Röfer, and Odest Chadwicke Jenkins
-      publication: IEEE International Conference on Robotics and Automation (ICRA), 2020
-      notes:
-        - "IEEE ICRA Best Paper Award in Cognitive Robotics"
-
-    - title: "Kineverse: A Symbolic Articulation Model Framework for Model-Generic Software for Mobile Manipulation"
-      authors: Adrian Röfer, Georg Bartels, and Michael Beetz
-      publication: IEEE International Conference on Robotics and Automation (ICRA), 2021
-      notes:
-        - "Preprint. (ArXiv: 2012.05362)"

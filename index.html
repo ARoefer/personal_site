@@ -66,6 +66,18 @@ title: "CV - Adrian Röfer"
     <a href="#{{ e[0] }}" class="badge badge-secondary">{{ e[0] }}</a>
 {% endfor %}
 <hr>
+<h3 id="Publications">Publications</h3>
+<div class="container">
+{% for e in site.data.cv.Content.Publications %}
+    {% assign title = e.title %}
+    {% assign authors = e.authors %}
+    {% assign publication = e.publication %}
+    {% assign link = e.link %}
+    {% assign notes = e.notes %}
+    {% include cv_publication.html %}
+{% endfor %}
+</div>
+
 <h3 id="Education">Education</h3>
 <div class="container">
 {% for e in site.data.cv.Content.Education  %}
@@ -105,15 +117,5 @@ title: "CV - Adrian Röfer"
 </div>
 <hr>
 
-<h3 id="Publications">Publications</h3>
-<div class="container">
-{% for e in site.data.cv.Content.Publications %}
-    {% assign title = e.title %}
-    {% assign authors = e.authors %}
-    {% assign publication = e.publication %}
-    {% assign notes = e.notes %}
-    {% include cv_publication.html %}
-{% endfor %}
-</div>
 <hr>
 <!-- </div> -->
